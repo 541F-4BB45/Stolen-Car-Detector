@@ -7,6 +7,18 @@ that were stolen. It also outputs a the video containing bounding boxes for the 
 - contains database integration with the MySQL database allowing for conversion between files and tables.
 - Uses the MOT tracker repository to allow tracking of cars.
 
+## How to get it running
+1. **Database**
+- You must download and install MySQL and create a local instance of the database on your computer.
+- In the util1.py and delete table records files there are global variables named: password (database password) and instance (database name).
+- You must change these to your MySQL database name and password or else it wont work
+
+2. **OpenCV**
+- You must open the terminal
+- write "pip list" and press enter
+- check if you have opencv-python-headless installed
+- if you do please use "pip uninstall opencv-python-headless"
+
 ## Interfaces
 ![Main Interface](/repo/C1.JPG)
 ![Output Video](/repo/C2.JPG)
