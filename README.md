@@ -8,3 +8,5 @@ that were stolen. It also outputs a the video containing bounding boxes for the 
 - Uses the MOT tracker repository to allow tracking of cars.
 
 ## Interfaces
+![Main Interface](/repo/C1.JPG)
+![Output Video](/repo/C2.JPG)
